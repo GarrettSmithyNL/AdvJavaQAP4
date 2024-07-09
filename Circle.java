@@ -50,6 +50,11 @@ public class Circle extends Shape {
   public double perimeter() {
     return 2 * Math.PI * radius;
   }
+  
+  @Override
+  public void scale(double factor) {
+    radius *= factor;
+  }
 
   /**
    * Returns a string representation of the circle.
