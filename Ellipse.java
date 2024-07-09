@@ -103,6 +103,12 @@ public class Ellipse extends Shape {
     return perimeter;
   }
 
+  @Override
+  public void scale(double factor) {
+    majorAxis *= factor;
+    minorAxis *= factor;
+  }
+
   /**
    * Returns a string representation of the ellipse.
    *

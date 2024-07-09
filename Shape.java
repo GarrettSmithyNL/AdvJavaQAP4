@@ -2,7 +2,7 @@
  * The abstract class Shape represents a geometric shape.
  * It provides common properties and methods for all shapes.
  */
-public abstract class Shape{
+public abstract class Shape implements Scalable{
   private String name;
 
   /**
