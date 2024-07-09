@@ -1,3 +1,5 @@
+package ProblemOneTwo;
+
 public interface Scalable {
   /**
    * Scales the shape by the specified factor.
