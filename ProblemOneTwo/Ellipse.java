@@ -105,6 +105,11 @@ public class Ellipse extends Shape {
     return perimeter;
   }
 
+  /**
+   * Scales the ellipse by the given factor.
+   * 
+   * @param factor the scaling factor
+   */
   @Override
   public void scale(double factor) {
     majorAxis *= factor;

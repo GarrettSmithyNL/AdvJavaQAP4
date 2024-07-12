@@ -53,6 +53,11 @@ public class Circle extends Shape {
     return 2 * Math.PI * radius;
   }
   
+  /**
+   * Scales the circle by the specified factor.
+   * 
+   * @param factor the scaling factor
+   */
   @Override
   public void scale(double factor) {
     radius *= factor;

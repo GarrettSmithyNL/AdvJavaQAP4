@@ -104,6 +104,11 @@ public class Triangle extends Shape {
     return side1 + side2 + side3;
   } 
 
+  /**
+   * Scales the triangle by the specified factor.
+   *
+   * @param factor the scaling factor
+   */
   @Override
   public void scale(double factor) {
     side1 *= factor;
